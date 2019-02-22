@@ -1,22 +1,13 @@
-/*Text Fonts*/
-#title{
-	text-align: center;
+/*Element Fonts*/
+head{
+	
 }
-
 body {
 	background-color: #CCCCCC;
 	text-align: justify;
-	margin: auto
+	margin: auto;
 } 
-
-.head {
-	width: auto;
-	height: 125px;
-	background-color: #F93;
-	top: 0px;
-}
-
-.foot {
+footer {
 	width: auto;
 	height: 200px;
 	background-color: #999;
@@ -24,27 +15,45 @@ body {
 	margin-bottom: auto;
 	text-align: center;
 }
-
-p2{
-	margin-left: 100px;
-}
-.center{
-	text-align: center;
-	font-size: 20px;
-}
-
 h1{
 	text-align:center;
 }
 h2{
 	text-align:center;
 }
-
+h3{
+	text-align:center;
+}
 p{
 	text-align: center;
 	font-size: 20px;
 }
+ul{
+	list-style-position: inside;
+	text-align: center;
+	/*
+	list-style-type: none;*/
+	font-size: 20px;
+}
 
+
+/*Class Fonts*/
+.head {
+	width: auto;
+	height: 125px;
+	background-color: #F93;
+	top: 0px;
+}
+
+.divider{
+	margin:auto;
+	width: auto;
+	background-color: #FFF;
+	height: 10px;
+}
+
+
+/*ID Fonts*/
 #logo{
 	display: block;
 	margin-left: auto;
@@ -54,16 +63,17 @@ p{
 	height: 100px;
 	z-index: 1;
 }
-.center{
-	list-style-type: none;
-	text-align: center;
+#picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	width: 200px;
+	height: 200px;
+	z-index: 1;
 }
-
-#bullets{
-	list-style-type: inherit;
+#title{
 	text-align: center;
-	list-style-position: inside;
-	font-size: 20px;
 }
 #centerList{
 	list-style-type: none;
@@ -73,27 +83,18 @@ p{
 	font-size: 20px;
 }
 
+
+
 /* Sources:
 https://www.w3schools.com/css/css_navbar.asp
 */
 
-/*Extras!*/
+/*Essential Seperate Elements*/
 /*Nav Bar*/
-#top_area{
-	margin-top: -80px;
-	list-style-type: none;
-}
-
-
-#last{
-	margin-right: 20px;
-}
-	
 
 li2 .left{
 	display: inline;
 	float: left;
-	
 }
 li2 .right{
 	display: inline;
@@ -112,13 +113,21 @@ li2 a {
 li2 a:hover:not(.active) {
 	background-color: #C96;
 }
+li a:hover {
+	background-color: #FC0;
+}
 
 .active {
   background-color: #4CAF50;
 }
 
-li a:hover {
-	background-color: #FC0;
+#top_area{
+	margin-top: -80px;
+	list-style-type: none;
+}
+
+#last{
+	margin-right: 20px;
 }
 
 
