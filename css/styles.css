@@ -78,7 +78,6 @@ ul{
 	padding-top: 10px;
 	width: 200px;
 	height: 200px;
-	z-index: 1;
 }
 #audio{
 	display: block;
@@ -87,7 +86,6 @@ ul{
 	padding-top: 10px;
 	width: 400px;
 	height: 50px;
-	z-index: 1;
 }
 #video{
 	display: block;
@@ -96,7 +94,6 @@ ul{
 	padding-top: 10px;
 	width: 500px;
 	height: 400px;
-	z-index: 1;
 }
 #title{
 	text-align: center;
