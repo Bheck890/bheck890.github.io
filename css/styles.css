@@ -52,6 +52,14 @@ ul{
 	height: 10px;
 }
 
+.center{
+    text-align: center;
+}
+.centerBlock{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
 
 /*ID Fonts*/
 #logo{
@@ -82,7 +90,22 @@ ul{
 	
 	font-size: 20px;
 }
-
+#myCanvas{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	/*border:1px solid #C90;*/
+}
+#mySVG{
+	fill:red;
+	stroke:black;
+	stroke-width:5;
+	opacity:0.5;
+	
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
 
 
 /* Sources:
