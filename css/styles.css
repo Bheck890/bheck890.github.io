@@ -7,14 +7,6 @@ body {
 	text-align: justify;
 	margin: auto;
 } 
-footer {
-	width: auto;
-	height: 200px;
-	background-color: #999;
-	bottom: 0px;
-	margin-bottom: auto;
-	text-align: center;
-}
 h1{
 	text-align:center;
 }
@@ -38,20 +30,18 @@ ul{
 
 
 /*Class Fonts*/
-.head {
+.top {
 	width: auto;
 	height: 125px;
 	background-color: #F93;
 	top: 0px;
 }
-
 .divider{
 	margin:auto;
 	width: auto;
 	background-color: #FFF;
 	height: 10px;
 }
-
 .center{
     text-align: center;
 }
@@ -60,7 +50,6 @@ ul{
 	margin-right:auto;
 	display:block;
 }
-
 .small-media{
 	display: block;
 	margin-left: auto;
@@ -77,7 +66,22 @@ ul{
 	width: 700px;
 	height: 600px;
 }
-
+.end {
+	width: auto;
+	height: 200px;
+	background-color: #999;
+	bottom: 0px;
+	margin-bottom: auto;
+	text-align: center;
+}
+.picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	width: 200px;
+	height: 200px;
+}
 
 /*ID Fonts*/
 #logo{
@@ -88,14 +92,6 @@ ul{
 	width: 100px;
 	height: 100px;
 	z-index: 1;
-}
-#picture{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 10px;
-	width: 200px;
-	height: 200px;
 }
 #title{
 	text-align: center;
@@ -139,25 +135,24 @@ https://www.w3schools.com/css/css_navbar.asp
 /*Essential Seperate Elements*/
 /*Nav Bar*/
 
-li2 .left{
+li .left {
 	display: inline;
 	float: left;
 }
-li2 .right{
+li .right {
 	display: inline;
 	float: right;
 }
-li2 a {
+li a {
 	display: block;
 	text-align: justify;
 	padding: 14px 16px;
 	text-decoration: none;
-	line-stacking: 5;
 	border: 1px solid;
 	border-color: #CF9;
-	color: #FFF;
+	color: #000;
 }
-li2 a:hover:not(.active) {
+li a:hover:not(.active) {
 	background-color: #C96;
 }
 li a:hover {
@@ -168,13 +163,8 @@ li a:hover {
   background-color: #4CAF50;
 }
 
-#top_area{
+#top_area {
 	margin-top: -80px;
 	list-style-type: none;
 }
-
-#last{
-	margin-right: 20px;
-}
-
 
