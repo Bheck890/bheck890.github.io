@@ -1,5 +1,6 @@
 // JavaScript Document
 
+//This whole Document is SVG Drawing
 
 //Call HTML Elements
 var c = document.getElementById('myCanvas');
