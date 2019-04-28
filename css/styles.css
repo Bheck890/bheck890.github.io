@@ -128,6 +128,7 @@ ul{
 	height: 50px;
 }
 
+
 /* Sources:
 https://www.w3schools.com/css/css_navbar.asp
 */
@@ -142,7 +143,7 @@ li .left {
 li .right {
 	display: inline;
 	float: right;
-}
+}	
 li a {
 	display: block;
 	text-align: justify;
@@ -161,6 +162,11 @@ li a:hover {
 
 .active {
   background-color: #4CAF50;
+}
+
+/*for Contact me not being on the farthest edge*/
+#last{ 
+	margin-right: 30px;
 }
 
 #top_area {
